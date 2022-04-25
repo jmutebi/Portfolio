@@ -4,6 +4,7 @@ common
 
 body {
   font-family: "monospace", sans-serif;
+  font-weight: bold;
 }
 
 .font-primary {
@@ -14,6 +15,17 @@ body {
   font-weight: bold;
 }
 
+p{
+  font-size: 14px;
+}
+h2{
+  font-weight: bold;
+  font-size: 23px;
+  margin-bottom: 20px;
+}
+a.font-black{
+  color: #000 !important;
+}
 /**********
 About
 
@@ -56,4 +68,28 @@ About
 
 #About .icons a{
   color: #000
+}
+/**********
+PROJECT
+
+**********/
+#Projects{
+  margin: 60px auto;
+  width: 80;
+}
+
+#Projects h2{
+  text-align: center;
+}
+
+#Projects .card img{
+  width: 100px;
+}
+
+#Project .card{
+  font-weight: bold; 
+}
+
+#img a{
+  border-radius: 20%;
 }
